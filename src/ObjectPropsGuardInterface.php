@@ -26,9 +26,9 @@ interface ObjectPropsGuardInterface
     public function checkAccess($object, array $fieldsAndNewValues): array;
 
     /**
-     * @param string $objectClass
+     * @param string $fieldName
      *
      * @return PropertyGuardInterface
      */
-    public function getPropertyGuard(string $objectClass): PropertyGuardInterface;
+    public function getPropertyGuard(string $fieldName): PropertyGuardInterface;
 }
