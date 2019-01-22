@@ -1,0 +1,31 @@
+{
+  "name": "gepur-it/object-guard",
+  "description": "Object Guard",
+  "type": "component",
+  "license": "MIT",
+  "version":"1.0.0",
+  "authors": [
+    {
+      "name": "Marina Mileva",
+      "email": "m934222258@gmail.com"
+    },
+    {
+      "name": "Andrii Yakovlev",
+      "email": "yawa20@gmail.com"
+    }
+  ],
+  "keywords": [
+    "gepur"
+  ],
+  "homepage": "https://github.com/gepur-it/object-guard",
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "GepurIt\\ObjectGuard\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
