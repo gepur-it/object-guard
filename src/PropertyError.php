@@ -59,7 +59,7 @@ class PropertyError
     /**
      * @return mixed|null
      */
-    public function getOldValue()
+    public function getOldValue(): void
     {
         return $this->oldValue;
     }
@@ -67,7 +67,7 @@ class PropertyError
     /**
      * @return mixed
      */
-    public function getNewValue()
+    public function getNewValue(): void
     {
         return $this->newValue;
     }

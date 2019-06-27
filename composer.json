@@ -3,7 +3,7 @@
   "description": "Object Guard",
   "type": "component",
   "license": "MIT",
-  "version":"1.0.0",
+  "version":"4.3.0",
   "authors": [
     {
       "name": "Marina Mileva",
@@ -19,7 +19,7 @@
   ],
   "homepage": "https://github.com/gepur-it/object-guard",
   "require": {
-    "php": "^7.2"
+    "php": "^7.3"
   },
   "autoload": {
     "psr-4": {
